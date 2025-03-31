@@ -6,6 +6,7 @@ services:
         container_name: web1
         volumns:
           - ./web1:/var/www/html
+          - ./flag:/flag_9787exec.txt
         ports:
           - "8080:80"
         working_dir: /var/www/html
