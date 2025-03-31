@@ -4,7 +4,7 @@ services:
     web1:
         image: php:8.2.28-apache
         container_name: web1
-        volumns:
+        volumes:
           - ./web1:/var/www/html
           - ./flag:/flag_9787exec.txt
         ports:
